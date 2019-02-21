@@ -1,0 +1,48 @@
+{
+  "name": "react-native-no-connection",
+  "version": "1.0.0",
+  "description": "A wrapper component indicating when network connection has been lost",
+  "main": "lib/Picker.js",
+  "author": "Steven Iseki <stevenisekimartin@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/StevenIseki/react-native-no-connection.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "prop-types": "^15.6.0",
+    "styled-components": "^4.1.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "7.3.3",
+    "@babel/plugin-proposal-class-properties": "^7.3.3",
+    "@babel/preset-env": "7.3.1",
+    "@babel/preset-react": "7.0.0",
+    "babel-loader": "8.0.5",
+    "html-webpack-plugin": "3.2.0",
+    "react": "^16.0.0",
+    "react-art": "^16.8.2",
+    "react-dom": "^16.0.0",
+    "react-native": "^0.58.5",
+    "react-native-web": "^0.10.0",
+    "webpack": "4.29.4",
+    "webpack-cli": "3.2.3",
+    "webpack-dev-server": "3.1.14"
+  },
+  "scripts": {
+    "build": "babel src --out-dir lib",
+    "dev": "webpack-dev-server --mode=development --port 3000 --inline --hot --config example/webpack.config"
+  },
+  "keywords": [
+    "react",
+    "react-native",
+    "react-component",
+    "no-connection",
+    "no connection",
+    "react native no connection",
+    "react-native-no-connection",
+    "react-no-connect",
+    "react-no-connection"
+  ]
+}

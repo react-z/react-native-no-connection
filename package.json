@@ -1,6 +1,6 @@
 {
   "name": "react-native-no-connection",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A wrapper component indicating when network connection has been lost",
   "main": "lib/Picker.js",
   "author": "Steven Iseki <stevenisekimartin@gmail.com>",
